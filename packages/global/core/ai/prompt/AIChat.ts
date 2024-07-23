@@ -49,7 +49,6 @@ export const Prompt_QuotePromptList: PromptTemplateItem[] = [
 - 如果你不清楚答案，你需要澄清。
 - 避免提及你是从 <Data></Data> 获取的知识。
 - 保持答案与 <Data></Data> 中描述的一致。
-- 使用 Markdown 语法优化回答格式。
 - 使用与问题相同的语言回答。
 
 问题:"""{{question}}"""`
@@ -88,7 +87,6 @@ export const Prompt_QuotePromptList: PromptTemplateItem[] = [
 回答要求：
 - 避免提及你是从 <Data></Data> 获取的知识。
 - 保持答案与 <Data></Data> 中描述的一致。
-- 使用 Markdown 语法优化回答格式。
 - 使用与问题相同的语言回答。
 
 问题:"""{{question}}"""`
